@@ -1,0 +1,16 @@
+body{
+    background-image: url(./image/back\ ground\ đẹp.jpg);
+
+}
+h2{
+    /* opacity: 60%; */
+    /* Độ trong suốt của nội dung */
+    /* display: none; */
+    visibility: hidden; 
+    /* ẩn hiện không tương tác được */
+    background-color: blue;
+}
+span{
+    /* display: block; */
+    visibility: visible;
+}
