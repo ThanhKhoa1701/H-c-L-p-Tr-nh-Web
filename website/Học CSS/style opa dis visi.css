@@ -1,0 +1,11 @@
+img {
+  transition: 1.5s;
+}
+
+input:checked ~ img {
+  /* làm mờ đi */
+  opacity: 0;
+  /* display: none; */
+  /* sau khi làm mờ xong chuyển về hidden để không tương tác được */
+  visibility: hidden;
+}
