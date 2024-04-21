@@ -1,6 +1,15 @@
 h1 {
   color: red;
+  /* Kiểu chữ */
   font-style: italic;
+  /* Phong chữ */
+  font-family: "Times New Roman", Times, serif;
+  /* chuyển hoa thường */
+  text-transform: uppercase;
+  /* căn giữa */
+  text-align: center;
+  /* Cỡ chữ */
+  font-size: 18px;
 }
 p {
   color: blue;
