@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TABLE</title>
+  </head>
+  <body>
+    <h1>HỌC TABLE</h1>
+    <table>
+      <!-- tr table row đại diện cho một hàng trong html -->
+      <!-- th table Header Định nghĩa một ô tiêu đề trong bảng -->
+      <!-- td Table Data Định nghĩa một ô dữ liệu trong bảng -->
+      <!-- thead Định nghĩa phần đầu của bảng thường chứa các ô tiêu đề th -->
+      <!-- tbody Định nghĩa phần thân thường chứa các ô tiêu đề td -->
+      <!-- tfoot Định nghĩa phần cuối bảng thường chứa ô chú thích , tổng kết, ... -->
+      <!-- colspan Chỉ định phần tử chiếm bao nhiêu cột -->
+      <!-- Rowspan chỉ định phần tử chiếm bao nhiêu hàng -->
+      <thead>
+        <tr>
+          <th>Tên sản phẩm</th>
+          <th colspan="2">Mô tả</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Áo phong</td>
+          <td>Chất liệu</td>
+          <td>Bạt</td>
+        </tr>
+        <tr>
+          <td>Kích thước</td>
+          <td>M, L, XL</td>
+        </tr>
+        <tr>
+          <td>Quần jean</td>
+          <td colspan="2">Quần jean cao cấp, dễ dàng phối đồ</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Ghi chú</td>
+          <td colspan="2">không</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
