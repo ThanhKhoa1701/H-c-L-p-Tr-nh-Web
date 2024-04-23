@@ -1,0 +1,23 @@
+p {
+  color: red;
+  font-size: 20px;
+}
+
+h1 {
+  color: blue;
+}
+#line-3 {
+  color: aqua;
+}
+/* Dấu # là để gọi id */
+.demo {
+  color: blueviolet;
+}
+/* Dấu . là để gọi class */
+
+.demo2 {
+  font-size: 40px;
+}
+.Item-ul-1 {
+  list-style: none;
+}
