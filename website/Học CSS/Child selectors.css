@@ -1,0 +1,47 @@
+/* CHỉ tính thẻ p đầu tiên nếu trước nó có thẻ h nó sẽ sai */
+p:first-child {
+  color: red;
+  font-size: 30px;
+}
+
+/* cuối cùng */
+p:last-child {
+  color: blue;
+  font-size: 25px;
+}
+
+/* Thẻ con thứ n (tính cả thẻ h trước nó)*/ 
+p:nth-child(2) {
+  color: green;
+  font-size: 20px;
+}
+
+/* Tác động thẻ p ở các vị trí chẳn thì dùng even lẻ thì dùng odd  */
+/* p:nth-child(even) or p:nth-child(odd) */
+
+/* p:nth-child(3n+1) n=0 thì nó sẽ chọn các dòng 0 4 7 ... */
+
+/* p:nth-last-child(2) tính từ dưới lên */
+
+/* p:only-child nào có thẻ con duy nhất thì được chọn */
+
+/* Nó sẽ chọn thẻ h3 con đầu tiên bất kể trước đó có h2 h1 ha gì đi nữa */
+h3:first-of-type {
+  color: red;
+}
+
+h3:last-of-type {
+  color: blue;
+}
+
+/* chỉ tính thẻ p */
+h3:nth-of-type(3) {
+  color: blueviolet;
+  font-size: 30px;
+}
+
+/* h3:nth-last-child(2) đếm từ dưới lên */
+
+h3:only-of-type{
+  color: brown;
+}
