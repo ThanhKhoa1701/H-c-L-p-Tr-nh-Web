@@ -1,0 +1,37 @@
+/* a[href] {
+  color: red;
+  font-size: 30px;
+}
+
+a[target="_blank"] {
+  color: black;
+}
+ */
+/* Phần 1 */
+
+/* Phần 2 */
+
+[title~="KHOA1"] {
+  color: red;
+}
+/* ~= chỉ chọn dúng cái có từ Khoa Khoa1 cũng không được nhận */
+
+/* *= chọn tất cả các từ dính chữ Khoa */
+/* [title*="KHOA"]{
+  color: black;
+} */
+
+/* |= chỉ nhận các title có chữ đầu là KHOA- gì đó  */
+/* [title|="KHOA"]{
+  color: green;
+} */
+
+/* |^ chỉ quan tâm từ đầu đằng sau không quan tâm */
+[title^="KHOA"]{
+  color: green;
+}
+
+/* $= quan tâm đến ký tự kết thúc */
+[title$="Khoa"]{
+  color: gold;
+}
