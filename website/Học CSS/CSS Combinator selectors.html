@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Combinator selectors.css">
+    <link rel="stylesheet" href="Combinator selectors.css" />
     <title>Combinator selectors</title>
   </head>
   <body>
@@ -11,15 +11,24 @@
     <h2 class="demo">Tiêu đề nhỏ 1</h2>
     <h3 class="demo demo2">Tiêu đề nhỏ 2</h3>
     <h2 id="title">Tiêu đề nhỏ 3</h2>
-    <h2>Tiêu đề nhỏ 4</h2>
-    <h2>Tiêu đề nhỏ 5</h2>
+    <div>
+      <p>Tiêu đề nhỏ 4</p>
+      <!-- Đây là con trực tiếp của div -->
+    </div>
+    <div class="loichuc">
+      <p>Chúc các bạn học tốt 1</p>
+      <block>
+        <p>Chúc các bạn học tốt 2</p>
+      </block>
+      <!-- Đây không phải là con trực tiếp của div -->
+    </div>
     <p>Đoạn văn 1</p>
     <p>Đoạn văn 2</p>
     <p>Đoạn văn 3</p>
     <ul>
-        <li>Nội dung 1</li>
-        <li>Nội dung 2</li>
-        <li>Nội dung 3</li>
+      <li>Nội dung 1</li>
+      <li>Nội dung 2</li>
+      <li>Nội dung 3</li>
     </ul>
   </body>
 </html>

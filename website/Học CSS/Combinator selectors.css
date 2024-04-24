@@ -4,6 +4,9 @@
     font-size: 20px;
 } */
 
+/* Phần 1 */
+
+
 /* h3.demo{
     color: black;
 } */
@@ -12,6 +15,44 @@
   color: red;
 } */
 
-.demo.demo2{
+/* .demo.demo2{
     color: red;
+}
+.demo.demo2 giống điều kiện và phải thỏa cả hai  */
+
+/* Phần 2 */
+
+
+/* div p {
+    color: blue;
+}
+Chọn tất cả thẻ p là con của thẻ div */
+
+/* .loichuc p  {
+    font-size: 30px;
+}
+Chọn thẻ p nằm trong class lời chúc */
+
+/* div>p {
+    color:  blue;
+}
+
+block p{
+    color: red;
+} */
+
+/* Phần 3 */
+
+
+h2+h3{
+    color:  red;
+}
+/* Chọn thẻ h3 ngay sau h2 (phải nằm kế bên ngay sau luôn mới có hiệu lực) */
+
+.demo.demo2 + h2 {
+    color:  blue;
+}
+
+p ~ ul{
+    color: brown;
 }
