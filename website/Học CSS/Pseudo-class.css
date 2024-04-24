@@ -1,0 +1,33 @@
+/* :hover di chuột qua sẽ đổi màu */
+#line:hover {
+  color: red;
+  font-size: 20px;
+}
+
+/* :active nhấn giữ chuột sẽ đổi màu */
+.giu:active {
+  color: blue;
+  font-size: 25px;
+}
+
+/* :link khi link chưa được nhấn nó sẽ có màu mình set */
+.a:link {
+  color: green;
+}
+
+/* :visited khi nhấn vào link rồi thì nó sẽ đổi màu */
+.click:visited {
+  color: black;
+}
+
+/* :empty phần còn trống khi trỏ vào sẽ đổi màu */
+.div_emp:empty{
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+}
+
+/* :target khi bấm chuyển link tới mục tiêu nó sẽ đổi màu */
+h2:target{
+    color: blue;
+}
