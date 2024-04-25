@@ -14,7 +14,7 @@ a[target="_blank"] {
 [title~="KHOA1"] {
   color: red;
 }
-/* ~= chỉ chọn dúng cái có từ Khoa Khoa1 cũng không được nhận */
+/* ~= chỉ chọn dúng cái có từ Khoa1 Khoa2 cũng không được nhận */
 
 /* *= chọn tất cả các từ dính chữ Khoa */
 /* [title*="KHOA"]{
@@ -26,7 +26,7 @@ a[target="_blank"] {
   color: green;
 } */
 
-/* |^ chỉ quan tâm từ đầu đằng sau không quan tâm */
+/* ^= chỉ quan tâm từ đầu đằng sau không quan tâm */
 [title^="KHOA"]{
   color: green;
 }
