@@ -1,0 +1,29 @@
+/* .box{
+    width: 50%;
+    height: 100px;
+    background-color:  red;
+} */
+
+html{
+    font-size: 150%;
+}
+
+h1{
+    font-size: 1rem ;
+}
+
+/* rem này sẽ phục thuộc vào html */
+
+
+h2{
+    font-size: 1em;
+}
+
+/* em phụ thuộc vào thẻ gần nhất với nó có thuộc tính font-size */
+
+/* vw và vh chính là set chiều rộng và chiều dài bằng bao nhiêu phần trăm so với nguyên cả khung hình web */
+.box2{
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+}

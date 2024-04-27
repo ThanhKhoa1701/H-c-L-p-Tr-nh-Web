@@ -1,0 +1,30 @@
+.box {
+  width: 160px;
+  height: 140px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 {
+  background-color: #333;
+}
+
+.box2 {
+  background-color: orange;
+  border: 10px solid black;
+  /* Có thể gọp chung ghi border thôi */
+  margin: 10px 11px 12px 13px;
+}
+
+.box3 {
+  background-color: firebrick;
+  padding: 10px 10px 10px 10px;
+  /* trên phải dưới trái ( padding là thêm vào px) */
+  border-width: 10px;
+  border-style: solid;
+  border-color: #333;
+  /* đây là cách dài */
+  margin-top: 30px;
+}

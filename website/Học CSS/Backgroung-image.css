@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+}
+
+.demo {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(0deg,rgba(255, 255, 0, 0.5),rgba(0, 0, 255, 0.5)),
+  url(https://cdn.pixabay.com/photo/2023/09/25/03/27/ai-generated-8274116_1280.png);
+  /* linear-gradient là dãy chuyển màu từ màu này đến màu kia cho background */
+  /* background-size: 100%;  */
+  background-size: contain;   
+  /* chức năng là tự lấy chiều dài hoặc chiều rộng hết cở đẹp nhất  */
+  /* background-size: cover; nó sẽ không cho phép bức ảnh có khoảng trắng như thằng contain */
+  background-repeat: no-repeat;
+  /* background-repeat tránh lặp lại ảnh */
+  border: 20px dashed gray;
+  padding: 20px;
+  box-sizing: border-box;
+  background-origin: content-box;
+  /* background-origin đi kèm background-image quy định image đổ từ đâu vào  */
+}
