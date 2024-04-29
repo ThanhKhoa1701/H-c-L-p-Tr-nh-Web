@@ -1,0 +1,15 @@
+html,body{
+    margin: 0;
+}
+
+.box{
+    width: 100%;
+    height: 120px;
+    background-color: palevioletred;
+}
+
+::selection{
+    background-color: blue;
+    color:  white;
+}
+

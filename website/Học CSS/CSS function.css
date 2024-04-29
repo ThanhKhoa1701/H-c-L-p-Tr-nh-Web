@@ -1,0 +1,19 @@
+html,body{
+    margin: 0;
+}
+.box{
+    width: calc(80%+20%);
+    /* Ham calc dùng để tính toán + - */
+    height: 120px;
+    background-color: rgb(176, 19, 174);
+}
+
+a::after{
+    content: "("attr(href)")";
+}
+/* attr khi thay đổi href thì cái dòng chữ trong hiện lên web cũng thay đổi theo */
+
+.box::after{
+    content: attr(data-title);
+    color: white;
+}
